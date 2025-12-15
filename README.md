@@ -79,6 +79,11 @@ ESP32_Sensor_Project/
 ├── hardware/
 │   └── Environmental_PCB_Group5.epro  # PCB Design 
 └── README.md                  # Documentation
+├── previous code/             # Development History & Iterations
+│   ├── Cali_friday            # Initial sensor calibration tests
+│   ├── Calibration...         # Environment sensor calibration logic
+│   ├── Environment_WIFI...    # Early integration tests
+│   └── sd_tof                 # Distance sensor & SD card unit tests
 
 The original intention for this project was was to develop a single-PCB
 sensor system capable of wired and wireless communication (via a Wi-Fi
