@@ -84,6 +84,11 @@ ESP32_Sensor_Project/
 │   ├── Calibration...         # Environment sensor calibration logic
 │   ├── Environment_WIFI...    # Early integration tests
 │   └── sd_tof                 # Distance sensor & SD card unit tests
+├── 3D Enclosure/              # Mechanical Design Files (.stl)
+│   ├── PCB_Enclosure_Body.stl # Main housing for electronics
+│   ├── PCB_Cover.stl          # Lid for the sensor unit
+│   ├── Power_bank_body.stl    # Holder for external battery
+│   └── Power_bank_cover.stl   # Lid for the battery
 
 The original intention for this project was was to develop a single-PCB
 sensor system capable of wired and wireless communication (via a Wi-Fi
